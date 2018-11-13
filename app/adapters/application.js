@@ -6,7 +6,7 @@ export default Adapter.extend({
   init() {
     this._super(...arguments);
     PouchDB.plugin(PouchDebugPlugin);
-    PouchDB.debug.enable('*');
+    PouchDB.debug.enable('*pouch*');
     this.set('db', new PouchDB('_example_'));
   }
 });
