@@ -5,3 +5,4 @@
 * `npm install`
 * `ember test --server`
 
+![screen capture of failing test's error message](./bug-screenshot.png)
